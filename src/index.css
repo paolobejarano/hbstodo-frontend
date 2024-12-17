@@ -1,0 +1,97 @@
+/* Dark Theme */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: #ffffff;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+.app {
+  padding: 20px;
+}
+
+.form {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 8px;
+  border: 1px solid #333;
+  border-radius: 4px;
+  background-color: #333;
+  color: white;
+}
+
+button {
+  padding: 8px 12px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.error {
+  color: red;
+  text-align: center;
+}
+
+/* Task Columns */
+.task-columns {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.task-column {
+  flex: 1;
+  background-color: #1e1e1e;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+  min-height: 200px;
+}
+
+.task-column h2 {
+  text-align: center;
+  color: #cccccc;
+}
+
+/* Task Cards */
+.task-card {
+  background-color: #333333;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.task-card button {
+  margin-top: 10px;
+  align-self: flex-end;
+}
+
+.pending {
+  border-left: 4px solid #ff9800;
+}
+
+.in-progress {
+  border-left: 4px solid #2196f3;
+}
+
+.completed {
+  border-left: 4px solid #4caf50;
+}
